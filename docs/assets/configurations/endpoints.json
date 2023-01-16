@@ -1,0 +1,7 @@
+{
+    "status": 200,
+    "endpoints": {
+        "newRelicLogs": "https://log-api.eu.newrelic.com/log/v1?Api-Key=eu01xxccc675507b8569647990ee4526FFFFNRAL",
+        "formSpree": "https://formspree.io/f/xknedlwk"
+    }
+}

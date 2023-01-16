@@ -1,0 +1,29 @@
+{
+  "status": 200,
+  "regExps": {
+    "name_regex": "^[\\w|]+([-|.|@|_][\\w]*)*\\s*([\\w]+([-|.|@|_][\\w]*)*\\s*)*$",
+    "name_error": "Not A Valid Name",
+    "account_number_regex": "^\\d{10,20}$",
+    "account_number_error": "Not A Valid Account Number",
+    "email_regex": "^([a-zA-Z\\d\\.-]+)@([a-z\\d-]+)\\.([a-z]{2,8})(\\.[a-z]{2,8})?$",
+    "email_error": "Not A Valid Email",
+    "msisdn_regex": "^(([0][\\d]{9})|([+]{0,1}\\d{10,15}))$",
+    "msisdn_error": "Not A Valid Phone Number",
+    "amount_regex": "^\\d+(,\\d{3})*[.]{0,1}\\d{0,2}$",
+    "amount_error": "Not A Valid Amount",
+    "ghana_card_number_regex": "^[^*$#]{15}$",
+    "ghana_card_number_error": "Sample: GHA-384938923-0",
+    "document_number_regex": "^[^*$#]{9}$",
+    "document_number_error": "Sample: BC2900412",
+    "varchar_regex": "^[^*$#]+$",
+    "varchar_error": "Must Not Contain * $ or #",
+    "number_regex": "^\\d*$",
+    "number_error": "Not A Valid Number",
+    "domain_regex": "^([a-z\\d-]+)\\.([a-z]{2,8})(\\.[a-z]{2,8})?$",
+    "domain_sample": "Eg. mesika.org",
+    "domain_error": "Not A Valid Domain",
+    "select_error": "Not A Valid Option",
+    "required_field_error": "Field Is Required",
+    "passwords_mismatch_error": "Passwords Do Not Match, Please Try Again"
+  }
+}
